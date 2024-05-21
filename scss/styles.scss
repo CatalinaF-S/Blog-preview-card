@@ -1,0 +1,49 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+// Variables declaration
+$mobile-width: 375px;
+$desktop-width: 1440px;
+
+$body-color: hsl(47, 88%, 63%);
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 50%);
+$black: hsl(0, 0%, 7%);
+
+$font-size: 16px;
+$font-primary: "Roboto", sans-serif;
+
+$main-width: 327px;
+$main-height: 501px;
+$img-width: 270px;
+$img-height: 200px;
+
+* {
+    font-family: $font-primary;
+}
+
+body {
+    background-color: $body-color;
+    width: $mobile-width;
+    margin: 0 auto;
+    text-align: center;
+    main {
+        background-color: $white;
+        border-radius: 20px;
+        margin-top: 155px;
+        height: $main-height;
+        width: $main-width;
+
+        img {
+            border-radius: 10px;
+            overflow: hidden;
+            height: $img-height;
+            width: $img-width;
+            margin-top: 24px;
+        }
+
+        .main-content {
+            text-align: left;
+        }
+    }
+}
