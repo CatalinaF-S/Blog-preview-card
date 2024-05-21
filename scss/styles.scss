@@ -18,6 +18,8 @@ $main-height: 501px;
 $img-width: 270px;
 $img-height: 200px;
 
+$margin-main: 24px;
+
 * {
     font-family: $font-primary;
 }
@@ -33,6 +35,9 @@ body {
         margin-top: 155px;
         height: $main-height;
         width: $main-width;
+        margin: $margin-main;
+        padding: 0 5px;
+        text-align: left;
 
         img {
             border-radius: 10px;
@@ -43,7 +48,18 @@ body {
         }
 
         .main-content {
-            text-align: left;
+            h1 {
+                font-weight: bolder;
+                font-size: 75%;
+            }
+        }
+
+        .autor-information {
+            img {
+                float: left;
+                height: 32px;
+                width: 32px;
+            }
         }
     }
 }

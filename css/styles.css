@@ -15,6 +15,9 @@ body main {
   margin-top: 155px;
   height: 501px;
   width: 327px;
+  margin: 24px;
+  padding: 0 5px;
+  text-align: left;
 }
 body main img {
   border-radius: 10px;
@@ -22,9 +25,16 @@ body main img {
   height: 200px;
   width: 270px;
   margin-top: 24px;
+  text-align: center;
 }
-body main .main-content {
-  text-align: left;
+body main .main-content h1 {
+  font-weight: bolder;
+  font-size: 75%;
+}
+body main .autor-information img {
+  float: left;
+  height: 32px;
+  width: 32px;
 }
 
 /*# sourceMappingURL=styles.css.map */
