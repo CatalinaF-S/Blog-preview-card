@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
+  padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
@@ -9,6 +10,11 @@ body {
   width: 375px;
   margin: 0 auto;
   text-align: center;
+}
+@media (min-width: 1422px) {
+  body {
+    width: 100vw;
+  }
 }
 body main {
   background-color: hsl(0, 0%, 100%);
@@ -20,8 +26,9 @@ body main {
   padding: 24px;
   text-align: left;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1422px) {
   body main {
+    margin: 218.5px auto;
     height: 522px;
     width: 384px;
   }
@@ -35,7 +42,7 @@ body main .main-image {
   margin: 0px auto;
   text-align: center;
 }
-@media (min-width: 1440px) {
+@media (min-width: 1422px) {
   body main .main-image {
     height: 200px;
     width: 336px;
@@ -52,17 +59,17 @@ body main .main-content h1 {
   width: 73px;
   height: 26px;
 }
-@media (min-width: 1440px) {
-  body main .main-content h1:hover {
-    color: hsl(47, 88%, 63%);
-  }
-}
 body main .main-content h1 + p {
   font-size: 75%;
 }
 body main .main-content h2 {
   font-size: 125%;
   font-weight: bolder;
+}
+@media (min-width: 1422px) {
+  body main .main-content h2:hover {
+    color: hsl(47, 88%, 63%);
+  }
 }
 body main .main-content h2 + p {
   color: hsl(0, 0%, 50%);
