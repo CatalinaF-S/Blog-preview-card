@@ -8,7 +8,7 @@
 //Main Style
 * {
     // margin: 0;
-    padding: 0;
+    // padding: 0;
     box-sizing: border-box;
     font-family: $font-primary;
 }
@@ -99,6 +99,9 @@ body {
                 font-size: $font-size-14;
                 font-weight: bolder;
                 padding: 5px;
+            }
+            @include desktop {
+                padding-bottom: 0;
             }
         }
     }

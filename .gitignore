@@ -10,7 +10,8 @@
 .prettierignore
 
 # Cambiar despues
-*.md
+style-guide.md
+README_file.md
 
 #fonts y design
 assets/fonts/
