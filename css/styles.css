@@ -28,7 +28,6 @@ body main {
 @media (min-width: 1440px) {
   body main {
     margin: 218.5px auto;
-    padding-bottom: 0;
     height: 522px;
     width: 384px;
   }
