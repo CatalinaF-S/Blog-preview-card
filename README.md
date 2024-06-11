@@ -24,8 +24,8 @@ Build a blog preview card according to a style guide in figma and following the 
 
 ### Links
 
--   Solution URL: [GitHub Repository](https://github.com/CatalinaF-S/Blog-preview-card)
--   Live Site URL: [Coming soon...](https://your-live-site-url.com)
+-   Solution URL: [GitHub repository](https://github.com/CatalinaF-S/Blog-preview-card).
+-   Live Site URL: [Live version](https://catalinaf-s.github.io/Blog-preview-card/).
 
 ## My process
 
