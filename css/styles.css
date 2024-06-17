@@ -50,14 +50,12 @@ body main .main-image {
 }
 body main .main-content h1 {
   border-radius: 4px;
-  display: inline-block;
   background-color: hsl(47, 88%, 63%);
   font-size: 75%;
   font-weight: bolder;
   margin: 20px 0 12px 0;
   padding: 4px 12px;
   width: 73px;
-  height: 26px;
 }
 body main .main-content h1 + p {
   font-size: 75%;
