@@ -59,6 +59,7 @@ body main .main-content h1 {
 }
 body main .main-content h1 + p {
   font-size: 75%;
+  margin-bottom: 12px;
 }
 body main .main-content h2 {
   font-size: 125%;
